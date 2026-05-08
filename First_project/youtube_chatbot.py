@@ -77,6 +77,9 @@ def get_video_transcript(video_id: str) -> str:
     return cleaned
 
 
+# Retriever
+
+
 def build_retriever(transcript_text: str):
     splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     chunks = splitter.split_text(transcript_text)

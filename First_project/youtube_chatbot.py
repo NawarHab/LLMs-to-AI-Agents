@@ -11,7 +11,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 
 # Ollama models gemma3:1b
-
+# ollama pull gemma3:1b
 CHAT_MODEL = "gemma3:1b"
 EMBED_MODEL = "nomic-embed-text"
 
